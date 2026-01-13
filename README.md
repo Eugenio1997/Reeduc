@@ -1,4 +1,4 @@
-﻿# Reeduc ✅
+﻿# Reeduc
 
 ## Sobre o projeto
 
@@ -142,5 +142,6 @@ Siga estes passos mínimos para executar o projeto em sua máquina:
 - Siga as boas práticas: branches por feature, testes, descrições claras em PRs.
 
 ---
+
 
 
