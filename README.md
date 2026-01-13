@@ -5,7 +5,7 @@
 **Reeduc** é uma plataforma educacional para pesssoas restritas de liberdade construída com **Django**. O projeto tem como objetivo centralizar a gestão de estudantes, cursos e publicações educativas, oferecendo suporte ao ensino de diferentes áreas do conhecimento, como matemática, língua portuguesa e outras disciplinas, por meio da organização e disponibilização de conteúdos educacionais em um ambiente digital.
 ---
 
-## 🔧 Stack
+## Stack
 
 - **Python:** 3.11+ (compatível com Django 5.2.7)
 - **Django:** 5.2.7
@@ -17,7 +17,7 @@
 
 ---
 
-## � Controle de Acesso (Níveis de Perfil)
+## Controle de Acesso (Níveis de Perfil)
 
 O projeto implementa controle de acesso baseado em papéis (RBAC). Os papéis e permissões são definidos em `core/roles.py` e o módulo de roles está configurado em `reeduc/settings.py` via `ROLEPERMISSIONS_MODULE = 'core.roles'`.
 
@@ -34,7 +34,7 @@ E verificar permissões em views/templates com utilitários como `has_permission
 
 ---
 
-## ���🚀 Rodando o projeto localmente
+## Rodando o projeto localmente
 
 Siga estes passos mínimos para executar o projeto em sua máquina:
 
@@ -103,7 +103,7 @@ Siga estes passos mínimos para executar o projeto em sua máquina:
 
 ---
 
-## 🗂 Diagrama ERD (Modelo de Dados)
+## Diagrama ERD (Modelo de Dados)
 
 -  O diagrama ERD está localizado em `docs/erd.png`.
 
@@ -125,7 +125,7 @@ Siga estes passos mínimos para executar o projeto em sua máquina:
 
 ---
 
-## 📦 Execução com Docker (opcional)
+## Execução com Docker (opcional)
 
 - O `docker-compose.yml` já inclui um serviço `postgres` e `pgadmin`.
 - Para rodar toda a stack via Docker, adicione um serviço `web` (subir a imagem do Django) ou descomente/ajuste o bloco `web` já presente no `docker-compose.yml` e execute:
@@ -142,4 +142,5 @@ Siga estes passos mínimos para executar o projeto em sua máquina:
 - Siga as boas práticas: branches por feature, testes, descrições claras em PRs.
 
 ---
+
 
